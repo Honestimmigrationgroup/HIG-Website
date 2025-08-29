@@ -86,7 +86,7 @@ export default function AboutPage() {
     {
       name: "Mayur Patel",
       title: "Co-Founder",
-      image: "/mayur-patel.png",
+      image: "/mayur-patel-profile.png",
       bio: "Mayur Patel is a seasoned immigration expert with over a decade of experience in international education consulting. Renowned as one of Australia's leading immigration specialists, he has guided thousands of students toward successful academic and migration outcomes. With a personalized approach and innovative systems, Mayur ensures high visa approval rates and efficient processing.",
       expertise: ["Visa", "University Counselling", "Education Planning"],
       linkedin: "#",

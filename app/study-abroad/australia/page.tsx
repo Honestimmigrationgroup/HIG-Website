@@ -585,13 +585,13 @@ export default function StudyInAustralia() {
 
                 <div className="p-4 bg-blue-50 border border-blue-200 rounded-lg">
                   <div className="font-semibold text-blue-800 mb-1">Living Expenses</div>
-                  <div className="text-2xl font-bold text-blue-600">AUD $21,041</div>
+                  <div className="text-2xl font-bold text-blue-600">AUD $29,710</div>
                   <div className="text-xs text-blue-700">Per year (Government requirement)</div>
                 </div>
 
                 <div className="p-4 bg-orange-50 border border-orange-200 rounded-lg">
                   <div className="font-semibold text-orange-800 mb-1">Health Insurance</div>
-                  <div className="text-lg font-bold text-orange-600">AUD $500 - $700</div>
+                  <div className="text-lg font-bold text-orange-600">AUD $1500 - $2500</div>
                   <div className="text-xs text-orange-700">Per year (OSHC)</div>
                 </div>
               </div>

@@ -139,13 +139,13 @@ export default function StudyAbroad() {
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-left">
                     <div className="text-3xl font-bold text-blue-600 mb-1">
-                      <CounterAnimation end={1000} suffix="+*" />
+                      <CounterAnimation end={1000} suffix="+" />
                     </div>
                     <div className="text-sm text-gray-600">Students Placed</div>
                   </div>
                   <div className="text-left">
                     <div className="text-3xl font-bold text-purple-600 mb-1">
-                      <CounterAnimation end={650} suffix="+*" />
+                      <CounterAnimation end={650} suffix="+" />
                     </div>
                     <div className="text-sm text-gray-600">Universities</div>
                   </div>
