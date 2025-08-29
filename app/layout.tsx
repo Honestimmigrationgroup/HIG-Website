@@ -65,7 +65,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://honestimmigration.com",
+    url: "https://www.honestimmigrationgroup.in",
     siteName: "Honest Immigration Group",
     title: "Honest Immigration Group - Your Global Education Partner",
     description:
@@ -101,15 +101,15 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://honestimmigration.com",
+    canonical: "https://www.honestimmigrationgroup.in",
     languages: {
-      "en-US": "https://honestimmigration.com",
-      "hi-IN": "https://honestimmigration.com/hi",
-      "gu-IN": "https://honestimmigration.com/gu",
+      "en-US": "https://www.honestimmigrationgroup.in",
+      "hi-IN": "https://www.honestimmigrationgroup.in/hi",
+      "gu-IN": "https://www.honestimmigrationgroup.in/gu",
     },
   },
   other: {
-    "google-site-verification": "your-google-site-verification",
+    "google-site-verification": "ADD_YOUR_VERIFICATION_CODE_HERE",
     "facebook-domain-verification": "your-facebook-domain-verification",
     "p:domain_verify": "your-pinterest-verification",
   },

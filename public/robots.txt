@@ -49,10 +49,10 @@ Allow: /manifest.json
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://honestimmigration.com/sitemap.xml
-Sitemap: https://honestimmigration.com/sitemap-pages.xml
-Sitemap: https://honestimmigration.com/sitemap-destinations.xml
-Sitemap: https://honestimmigration.com/sitemap-services.xml
+Sitemap: https://www.honestimmigrationgroup.in/sitemap.xml
+Sitemap: https://www.honestimmigrationgroup.in/sitemap-pages.xml
+Sitemap: https://www.honestimmigrationgroup.in/sitemap-destinations.xml
+Sitemap: https://www.honestimmigrationgroup.in/sitemap-services.xml
 
 # Host directive
-Host: https://honestimmigration.com
+Host: https://www.honestimmigrationgroup.in

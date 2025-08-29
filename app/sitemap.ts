@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://honestimmigration.com"
+  const baseUrl = "https://www.honestimmigrationgroup.in"
   const currentDate = new Date().toISOString()
 
   // Main pages
