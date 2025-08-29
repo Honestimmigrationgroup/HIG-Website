@@ -16,11 +16,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Honest Immigration Group - Your Global Education Partner",
+    default: "Honest Immigration Group | Best Overseas Education Consultants in Rajkot",
     template: "%s | Honest Immigration Group",
   },
   description:
-    "Transform your educational aspirations into reality with India's most trusted overseas education consultancy. We've guided over 1000+ students to their dream universities across 6 countries including USA, Canada, Australia, UK, Dubai, and New Zealand.",
+    "Honest Immigration Group is Rajkot's premier overseas education consultancy. Expert guidance for USA, UK, Canada, Australia study visas. 1000+ successful students. Visit our office today!",
   keywords: [
     "study abroad",
     "overseas education",
@@ -135,9 +135,9 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/logo.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="format-detection" content="telephone=yes" />
         <meta name="mobile-web-app-capable" content="yes" />

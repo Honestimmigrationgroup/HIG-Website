@@ -12,9 +12,9 @@
   "categories": ["education", "business", "productivity"],
   "icons": [
     {
-      "src": "/favicon.ico",
-      "sizes": "16x16 32x32",
-      "type": "image/x-icon"
+      "src": "/logo.png",
+      "sizes": "32x32 64x64 128x128",
+      "type": "image/png"
     },
     {
       "src": "/favicon.svg",
@@ -22,7 +22,7 @@
       "type": "image/svg+xml"
     },
     {
-      "src": "/apple-touch-icon.png",
+      "src": "/logo.png",
       "sizes": "180x180",
       "type": "image/png"
     },
