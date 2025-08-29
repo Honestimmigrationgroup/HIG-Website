@@ -306,7 +306,7 @@ export default function Services() {
     IELTS: {
       fullName: "International English Language Testing System",
       description: "Designed to assess language ability for study/work where English is the language of communication",
-      fee: "₹17,000",
+      fee: "₹18,000",
       validity: "2 years",
       results: "13 working days (PBT & CBT) | 3-6 hours (Computer-based)",
       scoreRange: "0-9 Bands",
@@ -324,7 +324,7 @@ export default function Services() {
       fullName: "Pearson Test of English Academic",
       description:
         "The English test for study abroad and immigration, with results typically available in five business days",
-      fee: "₹17,000",
+      fee: "₹18,000",
       validity: "2 years",
       results: "3-5 working days",
       scoreRange: "10-90 Points",
