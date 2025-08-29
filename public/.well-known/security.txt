@@ -1,0 +1,7 @@
+Contact: mailto:security@honestimmigration.com
+Expires: 2025-12-31T23:59:59.000Z
+Encryption: https://honestimmigration.com/pgp-key.txt
+Preferred-Languages: en, hi, gu
+Canonical: https://honestimmigration.com/.well-known/security.txt
+Policy: https://honestimmigration.com/security-policy
+Acknowledgments: https://honestimmigration.com/security-acknowledgments

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://honestimmigration.com</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://honestimmigration.com/hero-image.png</image:loc>
+      <image:title>Honest Immigration Group - Study Abroad Consultancy</image:title>
+      <image:caption>Transform your educational aspirations into reality with India's most trusted overseas education consultancy</image:caption>
+    </image:image>
+  </url>
+
+  <!-- About Us -->
+  <url>
+    <loc>https://honestimmigration.com/about-us</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://honestimmigration.com/mayur-patel-profile.png</image:loc>
+      <image:title>Mayur Patel - Founder, Honest Immigration Group</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://honestimmigration.com/parth-sanghani.jpeg</image:loc>
+      <image:title>Parth Sanghani - Co-Founder, Honest Immigration Group</image:title>
+    </image:image>
+  </url>
+
+  <!-- Services -->
+  <url>
+    <loc>https://honestimmigration.com/services</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Study Abroad -->
+  <url>
+    <loc>https://honestimmigration.com/study-abroad</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://honestimmigration.com/world-map-final.png</image:loc>
+      <image:title>Study Abroad Destinations - World Map</image:title>
+    </image:image>
+  </url>
+
+  <!-- Success Stories -->
+  <url>
+    <loc>https://honestimmigration.com/success-stories</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://honestimmigration.com/contact</loc>
+    <lastmod>2025-01-12T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>

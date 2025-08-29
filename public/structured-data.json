@@ -1,0 +1,137 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://honestimmigration.com/#organization",
+      "name": "Honest Immigration Group",
+      "alternateName": "HIG Rajkot",
+      "url": "https://honestimmigration.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://honestimmigration.com/logo.png",
+        "width": 300,
+        "height": 100
+      },
+      "description": "India's most trusted overseas education consultancy providing comprehensive study abroad services including counselling, test preparation, university selection, visa guidance, and more.",
+      "foundingDate": "2015",
+      "founders": [
+        {
+          "@type": "Person",
+          "name": "Mayur Patel",
+          "jobTitle": "Founder",
+          "image": "https://honestimmigration.com/mayur-patel-profile.png"
+        },
+        {
+          "@type": "Person",
+          "name": "Parth Sanghani",
+          "jobTitle": "Co-Founder",
+          "image": "https://honestimmigration.com/parth-sanghani.jpeg"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2nd Floor, Keshav Arcade, Main Road, Kalavad Rd, near Bonanza Salon, Royal Park Corner, Opposite State Bank Of Hyderabad",
+        "addressLocality": "Rajkot",
+        "addressRegion": "Gujarat",
+        "postalCode": "360005",
+        "addressCountry": "IN"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-281-258-8121",
+          "contactType": "customer service",
+          "email": "inquiries.hig@gmail.com",
+          "availableLanguage": ["English", "Hindi", "Gujarati"],
+          "areaServed": "IN"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/HIGRAJKOT/",
+        "https://www.instagram.com/hig_rajkot/",
+        "https://www.linkedin.com/company/honest-immigration-group"
+      ],
+      "serviceArea": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "EducationalOrganization",
+      "@id": "https://honestimmigration.com/#educational-organization",
+      "name": "Honest Immigration Group",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Study Abroad Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Overseas Education Counselling",
+              "description": "Personalized counseling sessions for study abroad planning",
+              "provider": {
+                "@id": "https://honestimmigration.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Test Preparation Coaching",
+              "description": "IELTS, PTE, TOEFL, SAT, GMAT, GRE coaching",
+              "provider": {
+                "@id": "https://honestimmigration.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "University Selection Guidance",
+              "description": "Strategic university selection based on academic profile and career goals",
+              "provider": {
+                "@id": "https://honestimmigration.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Visa Assistance",
+              "description": "Complete visa guidance and application support",
+              "provider": {
+                "@id": "https://honestimmigration.com/#organization"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://honestimmigration.com/#website",
+      "url": "https://honestimmigration.com",
+      "name": "Honest Immigration Group",
+      "description": "Transform your educational aspirations into reality with India's most trusted overseas education consultancy",
+      "publisher": {
+        "@id": "https://honestimmigration.com/#organization"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://honestimmigration.com/search?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    }
+  ]
+}
