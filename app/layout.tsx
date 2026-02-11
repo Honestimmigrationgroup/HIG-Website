@@ -16,35 +16,40 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Honest Immigration Group | Best Overseas Education Consultants in Rajkot",
-    template: "%s | Honest Immigration Group",
+    default: "Best Overseas Education Consultants in Rajkot, Gujarat | Honest Immigration Group",
+    template: "%s | Honest Immigration Group Rajkot",
   },
   description:
-    "Honest Immigration Group is Rajkot's premier overseas education consultancy. Expert guidance for USA, UK, Canada, Australia study visas. 1000+ successful students. Visit our office today!",
+    "Honest Immigration Group in Rajkot, Gujarat, is your trusted local expert for overseas education, student visas, and study abroad guidance. Personalized support for USA, UK, Canada, Australia, and more. 1000+ Rajkot students placed. Visit our Gujarat office for a free consultation!",
   keywords: [
-    "study abroad",
-    "overseas education",
-    "visa assistance",
-    "IELTS coaching",
-    "PTE preparation",
-    "TOEFL training",
-    "SAT coaching",
-    "GMAT preparation",
-    "GRE coaching",
-    "immigration consultancy",
-    "university admission",
-    "student visa",
-    "education loan",
-    "scholarship guidance",
+    "study abroad Rajkot",
+    "overseas education Rajkot",
+    "visa assistance Rajkot",
+    "IELTS coaching Rajkot",
+    "PTE preparation Rajkot",
+    "TOEFL training Rajkot",
+    "SAT coaching Rajkot",
+    "GMAT preparation Rajkot",
+    "GRE coaching Rajkot",
+    "immigration consultancy Rajkot",
+    "university admission Rajkot",
+    "student visa Rajkot",
+    "education loan Rajkot",
+    "scholarship guidance Rajkot",
     "Rajkot",
     "Gujarat",
     "India",
-    "USA universities",
-    "Canada universities",
-    "Australia universities",
-    "UK universities",
-    "Dubai universities",
-    "New Zealand universities",
+    "study in USA Rajkot",
+    "study in Canada Rajkot",
+    "study in Australia Rajkot",
+    "study in UK Rajkot",
+    "study in Dubai Rajkot",
+    "study in New Zealand Rajkot",
+    "Rajkot education consultant",
+    "Gujarat study abroad",
+    "Rajkot AEO",
+    "Rajkot FAQ",
+    "Rajkot Q&A",
   ],
   authors: [{ name: "Honest Immigration Group" }],
   creator: "Honest Immigration Group",
@@ -66,24 +71,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://www.honestimmigrationgroup.in",
-    siteName: "Honest Immigration Group",
-    title: "Honest Immigration Group - Your Global Education Partner",
+    siteName: "Honest Immigration Group - Rajkot, Gujarat",
+    title: "Honest Immigration Group Rajkot - Best Study Abroad Consultant in Gujarat",
     description:
-      "Transform your educational aspirations into reality with India's most trusted overseas education consultancy. Expert guidance for studying in USA, Canada, Australia, UK, Dubai, and New Zealand.",
+      "Honest Immigration Group in Rajkot, Gujarat, transforms your educational aspirations into reality. 1000+ students placed. Expert guidance for USA, Canada, Australia, UK, Dubai, New Zealand. Local expertise, global opportunities.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Honest Immigration Group - Study Abroad Consultancy",
+        alt: "Honest Immigration Group Rajkot - Best Overseas Education Consultant in Gujarat",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Honest Immigration Group - Your Global Education Partner",
+    title: "Honest Immigration Group Rajkot - Study Abroad Expert in Gujarat",
     description:
-      "Expert overseas education consultancy services. Study abroad in USA, Canada, Australia, UK, Dubai, New Zealand.",
+      "Expert overseas education consultancy in Rajkot, Gujarat. Student visas for USA, Canada, Australia, UK. 1000+ successful placements. Local support, global opportunities.",
     images: ["/og-image.jpg"],
     creator: "@honestimmigration",
     site: "@honestimmigration",
@@ -143,6 +148,12 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        {/* AEO Meta Tags for Rajkot, Gujarat */}
+        <meta property="og:locale" content="en_IN" />
+        <meta name="geo.placename" content="Rajkot" />
+        <meta name="geo.region" content="IN-GJ" />
+        <meta name="geo.position" content="22.3039;71.8024" />
+        <meta name="ICBM" content="22.3039, 71.8024" />
       </head>
       <body className={inter.className}>
         <ContactProvider>

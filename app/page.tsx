@@ -12,56 +12,103 @@ import { useEffect } from "react"
 // Structured Data for SEO
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "EducationalOrganization",
-  name: "Honest Immigration Group",
-  alternateName: "HIG Rajkot",
-  url: "https://honestimmigration.com",
-  logo: "https://honestimmigration.com/logo.png",
-  description:
-    "India's most trusted overseas education consultancy providing comprehensive study abroad services including counselling, test preparation, university selection, visa guidance, and more.",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress:
-      "2nd Floor, Keshav Arcade, Main Road, Kalavad Rd, near Bonanza Salon, Royal Park Corner, Opposite State Bank Of Hyderabad",
-    addressLocality: "Rajkot",
-    addressRegion: "Gujarat",
-    postalCode: "360005",
-    addressCountry: "IN",
-  },
-  contactPoint: {
-    "@type": "ContactPoint",
-    telephone: "+91-281-258-8121",
-    contactType: "customer service",
-    email: "info@honestimmigration.com",
-    availableLanguage: ["English", "Hindi", "Gujarati"],
-  },
-  sameAs: ["https://www.facebook.com/HIGRAJKOT/", "https://www.instagram.com/hig_rajkot/"],
-  serviceArea: {
-    "@type": "Country",
-    name: "India",
-  },
-  hasOfferCatalog: {
-    "@type": "OfferCatalog",
-    name: "Study Abroad Services",
-    itemListElement: [
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Overseas Education Counselling",
-          description: "Personalized counseling sessions for study abroad planning",
-        },
+  "@graph": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "Honest Immigration Group",
+      "alternateName": "HIG Rajkot",
+      "url": "https://honestimmigration.com",
+      "logo": "https://honestimmigration.com/logo.png",
+      "description": "Honest Immigration Group in Rajkot, Gujarat, is your trusted local expert for overseas education, student visas, and study abroad guidance. Personalized support for USA, UK, Canada, Australia, and more. 1000+ Rajkot students placed.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2nd Floor, Keshav Arcade, Main Road, Kalavad Rd, near Bonanza Salon, Royal Park Corner, Opposite State Bank Of Hyderabad",
+        "addressLocality": "Rajkot",
+        "addressRegion": "Gujarat",
+        "postalCode": "360005",
+        "addressCountry": "IN"
       },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "Test Preparation Coaching",
-          description: "IELTS, PTE, TOEFL, SAT, GMAT, GRE coaching",
-        },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-281-258-8121",
+        "contactType": "customer service",
+        "email": "inquiries.hig@gmail.com",
+        "availableLanguage": ["English", "Hindi", "Gujarati"]
       },
-    ],
-  },
+      "sameAs": [
+        "https://www.facebook.com/HIGRAJKOT/",
+        "https://www.instagram.com/hig_rajkot/"
+      ],
+      "serviceArea": {
+        "@type": "Country",
+        "name": "India"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Study Abroad Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Overseas Education Counselling",
+              "description": "Personalized counseling sessions for study abroad planning"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Test Preparation Coaching",
+              "description": "IELTS, PTE, TOEFL, SAT, GMAT, GRE coaching"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What services does Honest Immigration Group offer in Rajkot, Gujarat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We provide overseas education counseling, test preparation, university selection, visa assistance, and scholarship guidance for students in Rajkot and Gujarat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Honest Immigration Group located in Rajkot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our office is at 2nd Floor, Keshav Arcade, Main Road, Kalavad Rd, near Bonanza Salon, Royal Park Corner, Opposite State Bank Of Hyderabad, Rajkot, Gujarat 360005."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I contact Honest Immigration Group in Rajkot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can call us at +91-281-258-8121 or email inquiries.hig@gmail.com."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "QAPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why choose Honest Immigration Group in Rajkot for study abroad?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We are Rajkot's most trusted overseas education consultants with 1000+ successful students, local expertise, and personalized support for Gujarat students."
+          }
+        }
+      ]
+    }
+  ]
 }
 
 export default function Home() {

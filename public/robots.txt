@@ -1,12 +1,16 @@
-# Robots.txt for Honest Immigration Group
+# Robots.txt for Honest Immigration Group - Rajkot, Gujarat
+# Updated for SEO and AEO optimization
 # https://honestimmigration.com/robots.txt
 
 User-agent: *
 Allow: /
 
-# Allow all major search engine bots
+# Priority: Allow all major search engine bots with specific directives
 User-agent: Googlebot
 Allow: /
+Max-Snippet: -1
+Max-Image-Preview: large
+Max-Video-Preview: -1
 
 User-agent: Bingbot
 Allow: /
@@ -23,6 +27,20 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
+# Answer Engine Optimization (AEO) - Allow AI/LLM crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Social Media and Meta crawlers
 User-agent: facebookexternalhit
 Allow: /
 
@@ -32,21 +50,33 @@ Allow: /
 User-agent: LinkedInBot
 Allow: /
 
+User-agent: WhatsApp
+Allow: /
+
 # Disallow admin and private areas
 Disallow: /admin/
 Disallow: /private/
 Disallow: /_next/
 Disallow: /api/
 Disallow: /.well-known/
+Disallow: /node_modules/
 
 # Allow important files
 Allow: /sitemap.xml
+Allow: /sitemap-*.xml
 Allow: /robots.txt
 Allow: /favicon.ico
 Allow: /manifest.json
+Allow: /og-image.jpg
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1
+
+# Sitemap location for Rajkot-focused content
+Sitemap: https://honestimmigrationgroup.in/sitemap.xml
+Sitemap: https://honestimmigrationgroup.in/sitemap-destinations.xml
+Sitemap: https://honestimmigrationgroup.in/sitemap-services.xml
+Sitemap: https://honestimmigrationgroup.in/sitemap-pages.xml
 
 # Sitemap location
 Sitemap: https://www.honestimmigrationgroup.in/sitemap.xml
