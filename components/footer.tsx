@@ -146,6 +146,15 @@ const Footer = () => {
                   Contact Us
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/rajkot"
+                  className="text-gray-400 hover:text-orange-500 transition-colors cursor-pointer relative z-10 block py-1"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  Rajkot Office
+                </Link>
+              </li>
             </ul>
           </div>
 

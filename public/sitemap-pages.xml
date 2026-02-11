@@ -68,4 +68,12 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Rajkot Page -->
+  <url>
+    <loc>https://honestimmigration.com/rajkot</loc>
+    <lastmod>2026-02-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
 </urlset>

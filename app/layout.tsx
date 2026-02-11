@@ -16,14 +16,17 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Best Overseas Education Consultants in Rajkot, Gujarat | Honest Immigration Group",
-    template: "%s | Honest Immigration Group Rajkot",
+    default: "Study Abroad Consultant in Rajkot, Gujarat | Best Education Counselor | Honest Immigration Group",
+    template: "%s | Study Abroad Rajkot | Honest Immigration Group",
   },
   description:
-    "Honest Immigration Group in Rajkot, Gujarat, is your trusted local expert for overseas education, student visas, and study abroad guidance. Personalized support for USA, UK, Canada, Australia, and more. 1000+ Rajkot students placed. Visit our Gujarat office for a free consultation!",
+    "Best study abroad consultant in Rajkot, Gujarat. Expert guidance for USA, UK, Canada, Australia. 1000+ Rajkot students placed. Free IELTS coaching, visa assistance, university counseling. Call +91-281-258-8121 or visit Keshav Arcade office today!",
   keywords: [
+    "study abroad",
     "study abroad Rajkot",
+    "study abroad consultant Rajkot",
     "overseas education Rajkot",
+    "education consultant Rajkot",
     "visa assistance Rajkot",
     "IELTS coaching Rajkot",
     "PTE preparation Rajkot",
@@ -47,9 +50,13 @@ export const metadata: Metadata = {
     "study in New Zealand Rajkot",
     "Rajkot education consultant",
     "Gujarat study abroad",
-    "Rajkot AEO",
-    "Rajkot FAQ",
-    "Rajkot Q&A",
+    "Rajkot best consultant",
+    "top study abroad consultant Rajkot",
+    "overseas education consultant Rajkot",
+    "USA student visa Rajkot",
+    "Canada education Rajkot",
+    "Australia universities Rajkot",
+    "UK universities Rajkot",
   ],
   authors: [{ name: "Honest Immigration Group" }],
   creator: "Honest Immigration Group",

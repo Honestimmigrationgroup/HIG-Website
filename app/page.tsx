@@ -4,7 +4,7 @@ import DestinationCarousel from "@/components/destination-carousel"
 import FloatingNavigation from "@/components/floating-navigation"
 import ServicesCarousel from "@/components/services-carousel"
 import TestimonialSlider from "@/components/testimonial-slider"
-import { ArrowRight, ChevronRight, MessageSquare, Star, Users, Zap } from "lucide-react"
+import { ArrowRight, ChevronRight, MessageSquare, Star, Users, Zap, CheckCircle, MapPin, Phone, Mail } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { useEffect } from "react"
@@ -374,6 +374,71 @@ export default function Home() {
               View All Services
               <ChevronRight className="ml-1" size={18} aria-hidden="true" />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Rajkot Office Section */}
+      <section className="py-12 lg:py-16 bg-gradient-to-r from-blue-50 to-orange-50">
+        <div className="container mx-auto px-4">
+          <h2 className="section-title animate-on-scroll animate-title">
+            Study Abroad from <span className="text-orange-500">Rajkot, Gujarat</span>
+          </h2>
+          <p className="section-subtitle animate-on-scroll animate-subtitle">
+            Visit our local office in Rajkot for personalized consultation and support
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-8 mt-8">
+            <div className="bg-white rounded-lg p-6 shadow-md">
+              <h3 className="text-2xl font-bold mb-4 text-blue-600">Our Rajkot Office</h3>
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <MapPin className="text-orange-500 flex-shrink-0 mt-1" size={20} />
+                  <p className="text-gray-700">2nd Floor, Keshav Arcade, Main Road, Kalavad Rd, Rajkot, Gujarat 360005</p>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Phone className="text-orange-500" size={20} />
+                  <a href="tel:+912812588121" className="text-blue-600 font-semibold hover:underline">+91-281-258-8121</a>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Mail className="text-orange-500" size={20} />
+                  <a href="mailto:inquiries.hig@gmail.com" className="text-blue-600 font-semibold hover:underline">inquiries.hig@gmail.com</a>
+                </div>
+              </div>
+              <Link
+                href="/rajkot"
+                className="mt-6 inline-flex items-center bg-orange-500 text-white px-6 py-2 rounded-lg font-semibold hover:bg-orange-600 transition"
+              >
+                Learn More About Rajkot
+                <ArrowRight className="ml-2" size={18} />
+              </Link>
+            </div>
+
+            <div className="bg-white rounded-lg p-6 shadow-md">
+              <h3 className="text-2xl font-bold mb-4 text-blue-600">Why Choose Our Rajkot Office</h3>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-green-500 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">Local expertise with deep understanding of Rajkot students</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-green-500 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">1000+ successful students from Rajkot placed globally</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-green-500 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">Personalized counseling and face-to-face consultations</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-green-500 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">Expert guidance in IELTS, PTE, and university applications</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-green-500 flex-shrink-0 mt-1" size={20} />
+                  <span className="text-gray-700">Complete support from application to visa approval</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
